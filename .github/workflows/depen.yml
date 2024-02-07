@@ -1,7 +1,6 @@
-name: Workflow Depends
+name: "Workflow needs"
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 jobs:
   job1:
     runs-on: ubuntu-latest

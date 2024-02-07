@@ -2,7 +2,6 @@ name: Issue Created
 on:
   issues:
     types: [opened]
-    
 jobs:
   new:
     runs-on: ubuntu-latest

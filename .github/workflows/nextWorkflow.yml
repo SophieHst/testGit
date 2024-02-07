@@ -1,4 +1,4 @@
-name: Next Workflow
+name: "Next Workflow"
 on:
   workflow_run:
     workflows: ["PR Merged"]
@@ -8,5 +8,5 @@ jobs:
   next_workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: Print message
+      - name: "Validation du WF suivant"
         run: echo "Le workflow précédent est terminé"
