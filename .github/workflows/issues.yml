@@ -2,9 +2,10 @@ name: Issue Created
 on:
   issues:
     types: [opened]
+    
 jobs:
-  issue_created:
+  new:
     runs-on: ubuntu-latest
     steps:
-      - name: Print message
+      - name: validation
         run: echo "Issue créée"
