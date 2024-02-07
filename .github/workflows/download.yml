@@ -1,4 +1,4 @@
-name: Download Artefact
+name: Download Artifact
 
 
 on: workflow_dispatch
